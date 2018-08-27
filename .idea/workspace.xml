@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c818f80-1428-4af5-be08-71794ba710f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tubekids-client/src/app/models/playlist.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tubekids-client/src/app/models/profile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tubekids-client/src/app/models/token.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tubekids-client/src/app/models/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tubekids-client/src/app/models/video.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tubekids-client/src/app/models/singIn.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tubekids-client/src/models/playlist.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tubekids-client/src/models/profile.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tubekids-client/src/models/token.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tubekids-client/src/models/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tubekids-client/src/models/video.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tubekids-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tubekids-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tubekids-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tubekids-client/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,12 +32,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="token" value="1" />
-          <entry key="ts" value="18" />
+          <entry key="ts" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="TypeScript" value="19" />
+          <entry key="TypeScript" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -54,28 +47,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ts" value="328" />
+          <entry key="ts" value="786" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="TypeScript" value="328" />
+          <entry key="TypeScript" value="786" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tubekids-client/src/app/models/playlist.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,6 +76,8 @@
         <option value="$PROJECT_DIR$/tubekids-client/src/app/models/profile.ts" />
         <option value="$PROJECT_DIR$/tubekids-client/src/app/models/video.ts" />
         <option value="$PROJECT_DIR$/tubekids-client/src/app/models/playlist.ts" />
+        <option value="$PROJECT_DIR$/tubekids-client/src/app/models/singIn.ts" />
+        <option value="$PROJECT_DIR$/tubekids-client/src/app/services/user.service.ts" />
       </list>
     </option>
   </component>
@@ -154,6 +139,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tubekids-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tubekids-client" type="462c0819:PsiDirectoryNode" />
+              <item name="tubekids-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -195,18 +188,17 @@
       <workItem from="1535344744347" duration="732000" />
       <workItem from="1535374472070" duration="1225000" />
       <workItem from="1535375764858" duration="247000" />
-      <workItem from="1535376042568" duration="271000" />
+      <workItem from="1535376042568" duration="3389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3429000" />
+    <option name="totallyTimeSpent" value="6547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -218,9 +210,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -292,6 +284,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tubekids-client/src/app/models/singIn.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tubekids-client/src/app/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tubekids-client/src/app/services/user.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
